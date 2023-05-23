@@ -66,7 +66,7 @@ const Header = () => {
                     </a>
                   </div>
                   <div className="col-1 print">
-                    <a href="/approval-validation">
+                    <a href="/digital-invitation">
                       <h4>מערכת אישורי הגעה</h4>
                       <p>
                         באמצעות מערכת אישורי ההגעה שלנו תוכלו להזמין את המוזמנים
@@ -89,7 +89,7 @@ const Header = () => {
                     id="menu-item-349"
                     className="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-349"
                   >
-                    <a href="https://attending.co.il/product-category/digital-invitation/wedding/">
+                    <a href="/product-category">
                       חתונה
                     </a>
                   </li>
@@ -97,7 +97,7 @@ const Header = () => {
                     id="menu-item-352"
                     className="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-352"
                   >
-                    <a href="https://attending.co.il/product-category/digital-invitation/henna/">
+                    <a href="/product-category">
                       מסיבת חינה
                     </a>
                   </li>
@@ -105,7 +105,7 @@ const Header = () => {
                     id="menu-item-353"
                     className="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-353"
                   >
-                    <a href="https://attending.co.il/product-category/digital-invitation/bachelorette-party/">
+                    <a href="/product-category">
                       מסיבת רווקות
                     </a>
                   </li>
@@ -113,7 +113,7 @@ const Header = () => {
                     id="menu-item-348"
                     className="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-348"
                   >
-                    <a href="https://attending.co.il/product-category/digital-invitation/bar-mitzvah/">
+                    <a href="/product-category">
                       בר מצווה
                     </a>
                   </li>
@@ -121,7 +121,7 @@ const Header = () => {
                     id="menu-item-346"
                     className="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-346"
                   >
-                    <a href="https://attending.co.il/product-category/digital-invitation/circumcision/">
+                    <a href="/product-category">
                       ברית
                     </a>
                   </li>
@@ -129,7 +129,7 @@ const Header = () => {
                     id="menu-item-347"
                     className="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-347"
                   >
-                    <a href="https://attending.co.il/product-category/digital-invitation/brita/">
+                    <a href="/product-category">
                       בריתה
                     </a>
                   </li>
@@ -137,7 +137,7 @@ const Header = () => {
                     id="menu-item-350"
                     className="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-350"
                   >
-                    <a href="https://attending.co.il/product-category/digital-invitation/birthday/">
+                    <a href="/product-category">
                       יום הולדת
                     </a>
                   </li>
@@ -152,44 +152,10 @@ const Header = () => {
                     id="menu-item-355"
                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-355"
                   >
-                    <a href="https://attending.co.il/%d7%94%d7%a6%d7%94%d7%a8%d7%aa-%d7%a0%d7%92%d7%99%d7%a9%d7%95%d7%aa/">
+                    <a href="/accessibility-statement">
                       הצהרת נגישות
                     </a>
-                  </li>
-                  <li
-                    id="menu-item-4835"
-                    className="menu-item menu-item-type-post_type menu-item-object-page menu-item-4835"
-                  >
-                    <a href="https://attending.co.il/blog/">בלוג</a>
-                  </li>
-                  <li
-                    id="menu-item-3964"
-                    className="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-3964"
-                  >
-                    <a href="/#pricing-calculator" aria-current="page">
-                      מחשבון עלויות
-                    </a>
-                  </li>
-                  <li
-                    id="menu-item-415"
-                    className="menu-item menu-item-type-post_type menu-item-object-page menu-item-415"
-                  >
-                    <a href="https://attending.co.il/contact/">יצירת קשר</a>
-                  </li>
-                  <li
-                    id="menu-item-356"
-                    className="menu-item menu-item-type-post_type menu-item-object-page menu-item-356"
-                  >
-                    <a href="https://attending.co.il/terms/">
-                      תקנון שימוש ומדיניות
-                    </a>
-                  </li>
-                  <li
-                    id="menu-item-357"
-                    className="menu-item menu-item-type-post_type menu-item-object-page menu-item-357"
-                  >
-                    <a href="https://attending.co.il/about/">אודות</a>
-                  </li>
+                  </li> 
                 </ul>
               </div>
             </div>
@@ -203,7 +169,7 @@ const Header = () => {
                     <a
                       target="_blank"
                       rel="noopener"
-                      href="https://www.facebook.com/attending.co.il/"
+                      href="https://www.facebook.com"
                     >
                       Facebook
                     </a>
@@ -215,7 +181,7 @@ const Header = () => {
                     <a
                       target="_blank"
                       rel="noopener"
-                      href="https://www.instagram.com/attending.co.il/"
+                      href="https://www.instagram.com"
                     >
                       Instagram
                     </a>
@@ -227,7 +193,7 @@ const Header = () => {
                     <a
                       target="_blank"
                       rel="noopener"
-                      href="https://vm.tiktok.com/ZSeyDCvpo/"
+                      href="https://vm.tiktok.com/"
                     >
                       TikTok
                     </a>
@@ -239,16 +205,10 @@ const Header = () => {
                     <a
                       target="_blank"
                       rel="noopener"
-                      href="https://wa.me/972549112001"
+                      href="https://wa.me"
                     >
                       WhatsApp
                     </a>
-                  </li>
-                  <li
-                    id="menu-item-5759"
-                    className="menu-item menu-item-type-post_type menu-item-object-page menu-item-5759"
-                  >
-                    <a href="https://attending.co.il/contact/">יצירת קשר</a>
                   </li>
                 </ul>
               </div>

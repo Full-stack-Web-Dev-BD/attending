@@ -121,7 +121,7 @@ const Home = () => {
                       <div className="elementor-widget-container">
                         <div className="elementor-button-wrapper">
                           <a
-                            href="https://attending.co.il/approval-validation"
+                            href="/digital-invitation"
                             className="elementor-button-link elementor-button elementor-size-sm elementor-animation-shrink"
                             role="button"
                           >
@@ -191,7 +191,7 @@ const Home = () => {
                       <div className="elementor-widget-container">
                         <div className="elementor-button-wrapper">
                           <a
-                            href="https://attending.co.il/approval-validation"
+                            href="/digital-invitation"
                             className="elementor-button-link elementor-button elementor-size-sm elementor-animation-shrink"
                             role="button"
                           >
@@ -359,7 +359,7 @@ const Home = () => {
                       data-widget_type="image.default"
                     >
                       <div className="elementor-widget-container">
-                        <a href="https://attending.co.il/digital-invitation/">
+                        <a href="/digital-invitation/">
                           <img
                             decoding="async"
                             width={1920}
@@ -397,7 +397,7 @@ const Home = () => {
                       data-widget_type="image.default"
                     >
                       <div className="elementor-widget-container">
-                        <a href="https://attending.co.il/digital-invitation/">
+                        <a href="/digital-invitation/">
                           <img
                             decoding="async"
                             width={800}
@@ -1101,194 +1101,289 @@ const Home = () => {
                 </div>
               </div>
             </section>
-            <section
-              className="elementor-section elementor-top-section elementor-element elementor-element-26fda5d elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-              data-id="26fda5d"
-              data-element_type="section"
-              data-settings='{"background_background":"classic"}'
-            >
-              <div className="elementor-container elementor-column-gap-default">
-                <div
-                  className="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6a6d2e5a"
-                  data-id="6a6d2e5a"
-                  data-element_type="column"
-                  data-settings='{"background_background":"classic"}'
+            {/* Custom_slider */}
+            <div>
+              <section
+                style={{
+                  background: "#f2f9fc",
+                }}
+                className="elementor-section elementor-top-section elementor-element elementor-element-605d5786 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+                data-id="605d5786"
+                data-element_type="section"
+                id="down"
+                data-settings='{"background_background":"classic"}'
+              >
+                <div className="elementor-container elementor-column-gap-default"
+                style={{width:'75%'}}
                 >
-                  <div className="elementor-widget-wrap elementor-element-populated">
-                    <div
-                      className="elementor-element elementor-element-44c1a25c elementor-arrows-position-outside elementor-widget__width-inherit elementor-pagination-position-outside elementor-invisible elementor-widget elementor-widget-image-carousel"
-                      data-id="44c1a25c"
-                      data-element_type="widget"
-                      data-settings='{"autoplay_speed":1000,"speed":1000,"_animation":"fadeInUp","slides_to_show":"6","_animation_tablet":"none","_animation_mobile":"none","slides_to_show_mobile":"1","navigation":"both","autoplay":"yes","pause_on_hover":"yes","pause_on_interaction":"yes","infinite":"yes"}'
-                      data-widget_type="image-carousel.default"
-                    >
-                      <div className="elementor-widget-container">
-                        <style
-                          dangerouslySetInnerHTML={{
-                            __html:
-                              "\n                                                    /*! elementor - v3.13.2 - 11-05-2023 */\n                                                    .elementor-widget-image-carousel .swiper,\n                                                    .elementor-widget-image-carousel .swiper-container {\n                                                        position: static\n                                                    }\n\n                                                    .elementor-widget-image-carousel .swiper-container .swiper-slide figure,\n                                                    .elementor-widget-image-carousel .swiper .swiper-slide figure {\n                                                        line-height: inherit\n                                                    }\n\n                                                    .elementor-widget-image-carousel .swiper-slide {\n                                                        text-align: center\n                                                    }\n\n                                                    .elementor-image-carousel-wrapper:not(.swiper-container-initialized):not(.swiper-initialized) .swiper-slide {\n                                                        max-width: calc(100% / var(--e-image-carousel-slides-to-show, 3))\n                                                    }\n                                                ",
-                          }}
-                        />
-                        <div
-                          className="elementor-image-carousel-wrapper swiper-container"
-                          dir="ltr"
-                        >
-                          <div className="elementor-image-carousel swiper-wrapper">
-                            <div className="swiper-slide">
-                              <figure className="swiper-slide-inner">
-                                <img
-                                  decoding="async"
-                                  className="swiper-slide-image"
-                                  src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2023/01/cellcome-1-150x150.png"
-                                  alt="cellcome"
-                                />
-                              </figure>
+                  <div
+                    className="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-72df01b"
+                    data-id="72df01b"
+                    data-element_type="column"
+                  >
+                    <div className="elementor-widget-wrap elementor-element-populated">
+                      <div
+                        className="elementor-element elementor-element-61c51ea2 elementor-widget elementor-widget-html"
+                        data-id="61c51ea2"
+                        data-element_type="widget"
+                        data-widget_type="html.default"
+                      >
+                        <div className="elementor-widget-container">
+                          <section className="m-section">
+                            <div className="m-div">
+                              <section className="marquee-text m-section">
+                                <p>
+                                  <div className="client_image">
+                                    <img
+                                      decoding="async"
+                                      classname="swiper-slide-image"
+                                      src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2023/01/cellcome-1-150x150.png"
+                                      alt="cellcome"
+                                    />
+                                  </div>
+                                </p>
+                                <p>
+                                  <div className="client_image">
+                                    <img
+                                      decoding="async"
+                                      classname="swiper-slide-image"
+                                      src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2022/11/1-150x150.png"
+                                      alt="{1}"
+                                    />
+                                  </div>
+                                </p>
+                                <p>
+                                  <div className="client_image">
+                                    <img
+                                      decoding="async"
+                                      classname="swiper-slide-image"
+                                      src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2022/11/3-150x150.png"
+                                      alt="{3}"
+                                    />
+                                  </div>
+                                </p>
+                                <p>
+                                  <div className="client_image">
+                                    <img
+                                      decoding="async"
+                                      classname="swiper-slide-image"
+                                      src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2022/11/4-150x150.png"
+                                      alt="{4}"
+                                    />
+                                  </div>
+                                </p>
+                                <p>
+                                  <div className="client_image">
+                                    <img
+                                      decoding="async"
+                                      classname="swiper-slide-image"
+                                      src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2022/11/5-150x150.png"
+                                      alt="{5}"
+                                    />
+                                  </div>
+                                </p>
+                                <p>
+                                  <div className="client_image">
+                                    <img
+                                      decoding="async"
+                                      classname="swiper-slide-image"
+                                      src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2022/11/2-150x150.png"
+                                      alt="{2}"
+                                    />
+                                  </div>
+                                </p>
+                                <p>
+                                  <div className="client_image">
+                                    <img
+                                      decoding="async"
+                                      classname="swiper-slide-image"
+                                      src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2022/11/6-150x150.png"
+                                      alt="{6}"
+                                    />
+                                  </div>
+                                </p>
+                                <p>
+                                  <div className="client_image">
+                                    <img
+                                      decoding="async"
+                                      classname="swiper-slide-image"
+                                      src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2022/11/logos-zahal-150x150.png"
+                                      alt="logos-zahal"
+                                    />
+                                  </div>
+                                </p>
+                                <p>
+                                  <div className="client_image">
+                                    <img
+                                      decoding="async"
+                                      classname="swiper-slide-image"
+                                      src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2023/03/AFI-150x150.png"
+                                      alt="AFI"
+                                    />
+                                  </div>
+                                </p>
+                                <p>
+                                  <div className="client_image">
+                                    <img
+                                      decoding="async"
+                                      classname="swiper-slide-image"
+                                      src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2023/04/TerminalX-150x150.png"
+                                      alt="TerminalX"
+                                    />
+                                  </div>
+                                </p>
+                                <p>
+                                  <div className="client_image">
+                                    <img
+                                      decoding="async"
+                                      classname="swiper-slide-image"
+                                      src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2023/04/Matah-150x150.png"
+                                      alt="Matah"
+                                    />
+                                  </div>
+                                </p>
+                                <p>
+                                  <div className="client_image">
+                                    <img
+                                      decoding="async"
+                                      classname="swiper-slide-image"
+                                      src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2023/05/Club-Med-Logo-150x150.png"
+                                      alt="Club Med Logo"
+                                    />
+                                  </div>
+                                </p>
+                              </section>
+                              <section className="marquee-text m-section">
+                                <p>
+                                  <div className="client_image">
+                                    <img
+                                      decoding="async"
+                                      classname="swiper-slide-image"
+                                      src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2023/01/cellcome-1-150x150.png"
+                                      alt="cellcome"
+                                    />
+                                  </div>
+                                </p>
+                                <p>
+                                  <div className="client_image">
+                                    <img
+                                      decoding="async"
+                                      classname="swiper-slide-image"
+                                      src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2022/11/1-150x150.png"
+                                      alt="{1}"
+                                    />
+                                  </div>
+                                </p>
+                                <p>
+                                  <div className="client_image">
+                                    <img
+                                      decoding="async"
+                                      classname="swiper-slide-image"
+                                      src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2022/11/3-150x150.png"
+                                      alt="{3}"
+                                    />
+                                  </div>
+                                </p>
+                                <p>
+                                  <div className="client_image">
+                                    <img
+                                      decoding="async"
+                                      classname="swiper-slide-image"
+                                      src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2022/11/4-150x150.png"
+                                      alt="{4}"
+                                    />
+                                  </div>
+                                </p>
+                                <p>
+                                  <div className="client_image">
+                                    <img
+                                      decoding="async"
+                                      classname="swiper-slide-image"
+                                      src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2022/11/5-150x150.png"
+                                      alt="{5}"
+                                    />
+                                  </div>
+                                </p>
+                                <p>
+                                  <div className="client_image">
+                                    <img
+                                      decoding="async"
+                                      classname="swiper-slide-image"
+                                      src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2022/11/2-150x150.png"
+                                      alt="{2}"
+                                    />
+                                  </div>
+                                </p>
+                                <p>
+                                  <div className="client_image">
+                                    <img
+                                      decoding="async"
+                                      classname="swiper-slide-image"
+                                      src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2022/11/6-150x150.png"
+                                      alt="{6}"
+                                    />
+                                  </div>
+                                </p>
+                                <p>
+                                  <div className="client_image">
+                                    <img
+                                      decoding="async"
+                                      classname="swiper-slide-image"
+                                      src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2022/11/logos-zahal-150x150.png"
+                                      alt="logos-zahal"
+                                    />
+                                  </div>
+                                </p>
+                                <p>
+                                  <div className="client_image">
+                                    <img
+                                      decoding="async"
+                                      classname="swiper-slide-image"
+                                      src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2023/03/AFI-150x150.png"
+                                      alt="AFI"
+                                    />
+                                  </div>
+                                </p>
+                                <p>
+                                  <div className="client_image">
+                                    <img
+                                      decoding="async"
+                                      classname="swiper-slide-image"
+                                      src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2023/04/TerminalX-150x150.png"
+                                      alt="TerminalX"
+                                    />
+                                  </div>
+                                </p>
+                                <p>
+                                  <div className="client_image">
+                                    <img
+                                      decoding="async"
+                                      classname="swiper-slide-image"
+                                      src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2023/04/Matah-150x150.png"
+                                      alt="Matah"
+                                    />
+                                  </div>
+                                </p>
+                                <p>
+                                  <div className="client_image">
+                                    <img
+                                      decoding="async"
+                                      classname="swiper-slide-image"
+                                      src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2023/05/Club-Med-Logo-150x150.png"
+                                      alt="Club Med Logo"
+                                    />
+                                  </div>
+                                </p>
+                              </section>
                             </div>
-                            <div className="swiper-slide">
-                              <figure className="swiper-slide-inner">
-                                <img
-                                  decoding="async"
-                                  className="swiper-slide-image"
-                                  src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2022/11/1-150x150.png"
-                                  alt={1}
-                                />
-                              </figure>
-                            </div>
-                            <div className="swiper-slide">
-                              <figure className="swiper-slide-inner">
-                                <img
-                                  decoding="async"
-                                  className="swiper-slide-image"
-                                  src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2022/11/3-150x150.png"
-                                  alt={3}
-                                />
-                              </figure>
-                            </div>
-                            <div className="swiper-slide">
-                              <figure className="swiper-slide-inner">
-                                <img
-                                  decoding="async"
-                                  className="swiper-slide-image"
-                                  src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2022/11/4-150x150.png"
-                                  alt={4}
-                                />
-                              </figure>
-                            </div>
-                            <div className="swiper-slide">
-                              <figure className="swiper-slide-inner">
-                                <img
-                                  decoding="async"
-                                  className="swiper-slide-image"
-                                  src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2022/11/5-150x150.png"
-                                  alt={5}
-                                />
-                              </figure>
-                            </div>
-                            <div className="swiper-slide">
-                              <figure className="swiper-slide-inner">
-                                <img
-                                  decoding="async"
-                                  className="swiper-slide-image"
-                                  src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2022/11/2-150x150.png"
-                                  alt={2}
-                                />
-                              </figure>
-                            </div>
-                            <div className="swiper-slide">
-                              <figure className="swiper-slide-inner">
-                                <img
-                                  decoding="async"
-                                  className="swiper-slide-image"
-                                  src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2022/11/6-150x150.png"
-                                  alt={6}
-                                />
-                              </figure>
-                            </div>
-                            <div className="swiper-slide">
-                              <figure className="swiper-slide-inner">
-                                <img
-                                  decoding="async"
-                                  className="swiper-slide-image"
-                                  src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2022/11/logos-zahal-150x150.png"
-                                  alt="logos-zahal"
-                                />
-                              </figure>
-                            </div>
-                            <div className="swiper-slide">
-                              <figure className="swiper-slide-inner">
-                                <img
-                                  decoding="async"
-                                  className="swiper-slide-image"
-                                  src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2023/03/AFI-150x150.png"
-                                  alt="AFI"
-                                />
-                              </figure>
-                            </div>
-                            <div className="swiper-slide">
-                              <figure className="swiper-slide-inner">
-                                <img
-                                  decoding="async"
-                                  className="swiper-slide-image"
-                                  src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2023/04/TerminalX-150x150.png"
-                                  alt="TerminalX"
-                                />
-                              </figure>
-                            </div>
-                            <div className="swiper-slide">
-                              <figure className="swiper-slide-inner">
-                                <img
-                                  decoding="async"
-                                  className="swiper-slide-image"
-                                  src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2023/04/Matah-150x150.png"
-                                  alt="Matah"
-                                />
-                              </figure>
-                            </div>
-                            <div className="swiper-slide">
-                              <figure className="swiper-slide-inner">
-                                <img
-                                  decoding="async"
-                                  className="swiper-slide-image"
-                                  src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2023/05/Club-Med-Logo-150x150.png"
-                                  alt="Club Med Logo"
-                                />
-                              </figure>
-                            </div>
-                          </div>
-                          <div className="swiper-pagination" />
-                          <div
-                            className="elementor-swiper-button elementor-swiper-button-prev"
-                            role="button"
-                            tabIndex={0}
-                          >
-                            <i
-                              aria-hidden="true"
-                              className="eicon-chevron-left"
-                            />{" "}
-                            <span className="elementor-screen-only">
-                              התמונה הקודמת
-                            </span>
-                          </div>
-                          <div
-                            className="elementor-swiper-button elementor-swiper-button-next"
-                            role="button"
-                            tabIndex={0}
-                          >
-                            <i
-                              aria-hidden="true"
-                              className="eicon-chevron-right"
-                            />{" "}
-                            <span className="elementor-screen-only">
-                              תמונה הבאה
-                            </span>
-                          </div>
+                          </section>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </section>
+              </section>
+            </div>
             <section
               className="elementor-section elementor-top-section elementor-element elementor-element-a17d4ad elementor-hidden-tablet elementor-hidden-mobile elementor-hidden-desktop elementor-section-boxed elementor-section-height-default elementor-section-height-default"
               data-id="a17d4ad"
@@ -2257,7 +2352,7 @@ const Home = () => {
                               </div>
                               <div className="left">
                                 <div id="calculator_button">
-                                  <a href="https://attending.co.il/digital-invitation">
+                                  <a href="/digital-invitation">
                                     התחילו בהזמנה
                                   </a>
                                 </div>

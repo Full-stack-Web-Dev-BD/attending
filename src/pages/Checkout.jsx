@@ -57,7 +57,7 @@ const Checkout = () => {
                 name="checkout"
                 method="post"
                 className="checkout woocommerce-checkout"
-                action="https://attending.co.il/checkout/"
+                action="/checkout"
                 encType="multipart/form-data"
               >
                 <div className="col2-set" id="customer_details">
@@ -394,8 +394,8 @@ const Checkout = () => {
                             style={{ textAlign: "justify", lineHeight: "115%" }}
                           >
                             ברוכה הבאה לאתר
-                            <a href="https://attending.co.il/">
-                              https://attending.co.il/
+                            <a href="/">
+                              /
                             </a>
                             (להלן: “<b>האתר</b>“). האתר מופעל על-ידי שותפות
                             <br />
@@ -3955,8 +3955,8 @@ const Checkout = () => {
                           </p>
                           <p>
                             ברוכה הבאה לאתר{" "}
-                            <a href="https://attending.co.il/">
-                              https://attending.co.il/
+                            <a href="/">
+                              /
                             </a>
                             (להלן: “<b>האתר</b>“). האתר מופעל על-ידי שותפות
                             רשומה “<b>אטנדינג</b>” (מס’ 540313335). בכל פעם
@@ -4164,7 +4164,7 @@ const Checkout = () => {
                             <span className="woocommerce-terms-and-conditions-checkbox-text">
                               קראתי ואני מאשר/ת את{" "}
                               <a
-                                href="https://attending.co.il/terms/"
+                                href="/terms/"
                                 className="woocommerce-terms-and-conditions-link"
                                 target="_blank"
                               >
@@ -4203,7 +4203,7 @@ const Checkout = () => {
                       <input
                         type="hidden"
                         name="_wp_http_referer"
-                        defaultValue="/checkout/"
+                        defaultValue="/checkout"
                       />
                     </div>
                   </div>
@@ -4357,7 +4357,7 @@ const Checkout = () => {
                   name="checkout"
                   method="post"
                   className="wc_coupons_enabled"
-                  action="https://attending.co.il/checkout/"
+                  action="/checkout"
                   encType="multipart/form-data"
                 >
                   <div className="coupon">

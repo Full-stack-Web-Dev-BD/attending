@@ -1,0 +1,84 @@
+import React from "react";
+
+const ClientCarousel = () => {
+  return (
+    <div>
+      <div>
+        <img
+          decoding="async"
+          className="swiper-slide-image"
+          src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2023/01/cellcome-1-150x150.png"
+          alt="cellcome"
+        />
+        <img
+          decoding="async"
+          className="swiper-slide-image"
+          src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2022/11/1-150x150.png"
+          alt={1}
+        />
+        <img
+          decoding="async"
+          className="swiper-slide-image"
+          src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2022/11/3-150x150.png"
+          alt={3}
+        />
+        <img
+          decoding="async"
+          className="swiper-slide-image"
+          src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2022/11/4-150x150.png"
+          alt={4}
+        />
+        <img
+          decoding="async"
+          className="swiper-slide-image"
+          src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2022/11/5-150x150.png"
+          alt={5}
+        />
+        <img
+          decoding="async"
+          className="swiper-slide-image"
+          src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2022/11/2-150x150.png"
+          alt={2}
+        />
+        <img
+          decoding="async"
+          className="swiper-slide-image"
+          src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2022/11/6-150x150.png"
+          alt={6}
+        />
+        <img
+          decoding="async"
+          className="swiper-slide-image"
+          src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2022/11/logos-zahal-150x150.png"
+          alt="logos-zahal"
+        />
+        <img
+          decoding="async"
+          className="swiper-slide-image"
+          src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2023/03/AFI-150x150.png"
+          alt="AFI"
+        />
+        <img
+          decoding="async"
+          className="swiper-slide-image"
+          src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2023/04/TerminalX-150x150.png"
+          alt="TerminalX"
+        />
+        <img
+          decoding="async"
+          className="swiper-slide-image"
+          src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2023/04/Matah-150x150.png"
+          alt="Matah"
+        />
+        <img
+          decoding="async"
+          className="swiper-slide-image"
+          src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2023/05/Club-Med-Logo-150x150.png"
+          alt="Club Med Logo"
+        />
+      </div>
+    </div>
+  );
+};
+
+export default ClientCarousel;

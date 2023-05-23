@@ -3,15 +3,15 @@ import ProcessBar from "./Components/ProcessBar";
 
 const DigitalInvitation = () => {
   return (
-    <> 
-      <ProcessBar/>
+    <>
+      <ProcessBar />
       <div id="primary" className="content-area archive-template">
         <main id="main" className="site-main">
           <div className="background-strip" />
           <div className="cats">
             <ul className="list">
               <li className="item">
-                <a href="https://attending.co.il/product-category/digital-invitation/wedding/">
+                <a href="/product-category">
                   <div
                     className="img"
                     style={{
@@ -25,7 +25,7 @@ const DigitalInvitation = () => {
                 </a>
               </li>
               <li className="item">
-                <a href="https://attending.co.il/product-category/digital-invitation/henna/">
+                <a href="/product-category">
                   <div
                     className="img"
                     style={{
@@ -39,7 +39,7 @@ const DigitalInvitation = () => {
                 </a>
               </li>
               <li className="item">
-                <a href="https://attending.co.il/product-category/digital-invitation/bar-mitzvah/">
+                <a href="/product-category">
                   <div
                     className="img"
                     style={{
@@ -53,7 +53,7 @@ const DigitalInvitation = () => {
                 </a>
               </li>
               <li className="item">
-                <a href="https://attending.co.il/product-category/digital-invitation/bat-mitzvah/">
+                <a href="/product-category">
                   <div
                     className="img"
                     style={{
@@ -67,7 +67,7 @@ const DigitalInvitation = () => {
                 </a>
               </li>
               <li className="item">
-                <a href="https://attending.co.il/product-category/digital-invitation/circumcision/">
+                <a href="/product-category">
                   <div
                     className="img"
                     style={{
@@ -81,7 +81,7 @@ const DigitalInvitation = () => {
                 </a>
               </li>
               <li className="item">
-                <a href="https://attending.co.il/product-category/digital-invitation/brita/">
+                <a href="/product-category">
                   <div
                     className="img"
                     style={{
@@ -95,7 +95,7 @@ const DigitalInvitation = () => {
                 </a>
               </li>
               <li className="item">
-                <a href="https://attending.co.il/product-category/digital-invitation/birthday/">
+                <a href="/product-category">
                   <div
                     className="img"
                     style={{
@@ -109,7 +109,7 @@ const DigitalInvitation = () => {
                 </a>
               </li>
               <li className="item">
-                <a href="https://attending.co.il/product-category/digital-invitation/drawing/">
+                <a href="/product-category">
                   <div
                     className="img"
                     style={{
@@ -123,7 +123,7 @@ const DigitalInvitation = () => {
                 </a>
               </li>
               <li className="item">
-                <a href="https://attending.co.il/product-category/digital-invitation/business/">
+                <a href="/product-category">
                   <div
                     className="img"
                     style={{
@@ -137,7 +137,7 @@ const DigitalInvitation = () => {
                 </a>
               </li>
               <li className="item">
-                <a href="https://attending.co.il/product-category/digital-invitation/bachelorette-party/">
+                <a href="/product-category">
                   <div
                     className="img"
                     style={{
@@ -154,7 +154,7 @@ const DigitalInvitation = () => {
           </div>
         </main>
         {/* #main */}
-      </div> 
+      </div>
       {/* #colophon */}
     </>
   );

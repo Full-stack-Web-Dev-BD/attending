@@ -8,7 +8,9 @@ const ProductCategory = () => {
       <main id="primary" className="site-main">
         <div className="products-container">
           <header className="woocommerce-products-header">
-            <h1 className="woocommerce-products-header__title page-title">
+            <h1 className="woocommerce-products-header__title page-title " style={{
+              textAlign:'center'
+            }}>
               בר מצווה
             </h1>
           </header>
@@ -28,7 +30,7 @@ const ProductCategory = () => {
                   height={470}
                   width="100%"
                 />
-                <a href="https://attending.co.il/product/03016/">בחירת הזמנה</a>
+                <a href="/product">בחירת הזמנה</a>
               </div>
             </li>
             <li className="video-item product type-product post-873 status-publish instock product_cat-bar-mitzvah product_cat-digital-invitation has-post-thumbnail virtual taxable purchasable product-type-simple">
@@ -40,7 +42,7 @@ const ProductCategory = () => {
                   height={470}
                   width="100%"
                 />
-                <a href="https://attending.co.il/product/03001/">בחירת הזמנה</a>
+                <a href="/product">בחירת הזמנה</a>
               </div>
             </li>
             <li className="video-item product type-product post-876 status-publish instock product_cat-bar-mitzvah product_cat-digital-invitation has-post-thumbnail virtual taxable purchasable product-type-simple">
@@ -52,7 +54,7 @@ const ProductCategory = () => {
                   height={470}
                   width="100%"
                 />
-                <a href="https://attending.co.il/product/03002/">בחירת הזמנה</a>
+                <a href="/product">בחירת הזמנה</a>
               </div>
             </li>
             <li className="image-item product type-product post-2718 status-publish instock product_cat-bar-mitzvah product_cat-digital-invitation has-post-thumbnail virtual sold-individually taxable purchasable product-type-simple">
@@ -61,7 +63,7 @@ const ProductCategory = () => {
                   className="product-image"
                   src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2022/06/203016-1-683x1024.jpg"
                 />
-                <a href="https://attending.co.il/product/203016/">
+                <a href="/product">
                   בחירת הזמנה
                 </a>
               </div>
@@ -75,7 +77,7 @@ const ProductCategory = () => {
                   height={470}
                   width="100%"
                 />
-                <a href="https://attending.co.il/product/03017/">בחירת הזמנה</a>
+                <a href="/product">בחירת הזמנה</a>
               </div>
             </li>
             <li className="video-item product type-product post-1743 status-publish first instock product_cat-bar-mitzvah product_cat-digital-invitation virtual taxable purchasable product-type-simple">
@@ -87,7 +89,7 @@ const ProductCategory = () => {
                   height={470}
                   width="100%"
                 />
-                <a href="https://attending.co.il/product/03008/">בחירת הזמנה</a>
+                <a href="/product">בחירת הזמנה</a>
               </div>
             </li>
             <li className="video-item product type-product post-1354 status-publish instock product_cat-bar-mitzvah product_cat-digital-invitation virtual taxable purchasable product-type-simple">
@@ -99,7 +101,7 @@ const ProductCategory = () => {
                   height={470}
                   width="100%"
                 />
-                <a href="https://attending.co.il/product/03006/">בחירת הזמנה</a>
+                <a href="/product">בחירת הזמנה</a>
               </div>
             </li>
             <li className="image-item product type-product post-2785 status-publish instock product_cat-bar-mitzvah product_cat-digital-invitation has-post-thumbnail virtual sold-individually taxable purchasable product-type-simple">
@@ -108,7 +110,7 @@ const ProductCategory = () => {
                   className="product-image"
                   src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2022/06/203017-683x1024.jpg"
                 />
-                <a href="https://attending.co.il/product/203017/">
+                <a href="/product">
                   בחירת הזמנה
                 </a>
               </div>
@@ -119,7 +121,7 @@ const ProductCategory = () => {
                   className="product-image"
                   src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2022/06/203009-683x1024.jpg"
                 />
-                <a href="https://attending.co.il/product/203009/">
+                <a href="/product">
                   בחירת הזמנה
                 </a>
               </div>
@@ -133,7 +135,7 @@ const ProductCategory = () => {
                   height={470}
                   width="100%"
                 />
-                <a href="https://attending.co.il/product/03015/">בחירת הזמנה</a>
+                <a href="/product">בחירת הזמנה</a>
               </div>
             </li>
             <li className="video-item product type-product post-1355 status-publish first instock product_cat-bar-mitzvah product_cat-digital-invitation virtual taxable purchasable product-type-simple">
@@ -145,7 +147,7 @@ const ProductCategory = () => {
                   height={470}
                   width="100%"
                 />
-                <a href="https://attending.co.il/product/03007/">בחירת הזמנה</a>
+                <a href="/product">בחירת הזמנה</a>
               </div>
             </li>
             <li className="video-item product type-product post-882 status-publish instock product_cat-bar-mitzvah product_cat-digital-invitation has-post-thumbnail virtual taxable purchasable product-type-simple">
@@ -157,7 +159,7 @@ const ProductCategory = () => {
                   height={470}
                   width="100%"
                 />
-                <a href="https://attending.co.il/product/03004/">בחירת הזמנה</a>
+                <a href="/product">בחירת הזמנה</a>
               </div>
             </li>
             <li className="image-item product type-product post-2245 status-publish instock product_cat-bar-mitzvah product_cat-digital-invitation has-post-thumbnail virtual taxable purchasable product-type-simple">
@@ -166,7 +168,7 @@ const ProductCategory = () => {
                   className="product-image"
                   src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2022/05/203007-683x1024.jpg"
                 />
-                <a href="https://attending.co.il/product/203007/">
+                <a href="/product">
                   בחירת הזמנה
                 </a>
               </div>
@@ -177,7 +179,7 @@ const ProductCategory = () => {
                   className="product-image"
                   src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2022/06/203018-683x1024.jpg"
                 />
-                <a href="https://attending.co.il/product/203018/">
+                <a href="/product">
                   בחירת הזמנה
                 </a>
               </div>
@@ -191,7 +193,7 @@ const ProductCategory = () => {
                   height={470}
                   width="100%"
                 />
-                <a href="https://attending.co.il/product/03012/">בחירת הזמנה</a>
+                <a href="/product">בחירת הזמנה</a>
               </div>
             </li>
             <li className="video-item product type-product post-2445 status-publish first instock product_cat-bar-mitzvah product_cat-digital-invitation virtual taxable purchasable product-type-simple">
@@ -203,7 +205,7 @@ const ProductCategory = () => {
                   height={470}
                   width="100%"
                 />
-                <a href="https://attending.co.il/product/03009/">בחירת הזמנה</a>
+                <a href="/product">בחירת הזמנה</a>
               </div>
             </li>
             <li className="video-item product type-product post-879 status-publish instock product_cat-bar-mitzvah product_cat-digital-invitation has-post-thumbnail virtual taxable purchasable product-type-simple">
@@ -215,7 +217,7 @@ const ProductCategory = () => {
                   height={470}
                   width="100%"
                 />
-                <a href="https://attending.co.il/product/03003/">בחירת הזמנה</a>
+                <a href="/product">בחירת הזמנה</a>
               </div>
             </li>
             <li className="video-item product type-product post-3456 status-publish instock product_cat-bar-mitzvah product_cat-digital-invitation virtual sold-individually taxable purchasable product-type-simple">
@@ -227,7 +229,7 @@ const ProductCategory = () => {
                   height={470}
                   width="100%"
                 />
-                <a href="https://attending.co.il/product/03019/">בחירת הזמנה</a>
+                <a href="/product">בחירת הזמנה</a>
               </div>
             </li>
             <li className="image-item product type-product post-2878 status-publish instock product_cat-bar-mitzvah product_cat-digital-invitation has-post-thumbnail virtual sold-individually taxable purchasable product-type-simple">
@@ -236,7 +238,7 @@ const ProductCategory = () => {
                   className="product-image"
                   src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2022/07/203019-683x1024.jpg"
                 />
-                <a href="https://attending.co.il/product/203019/">
+                <a href="/product">
                   בחירת הזמנה
                 </a>
               </div>
@@ -247,7 +249,7 @@ const ProductCategory = () => {
                   className="product-image"
                   src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2022/06/203015-683x1024.jpg"
                 />
-                <a href="https://attending.co.il/product/203015/">
+                <a href="/product">
                   בחירת הזמנה
                 </a>
               </div>
@@ -258,7 +260,7 @@ const ProductCategory = () => {
                   className="product-image"
                   src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2022/05/203006-683x1024.jpg"
                 />
-                <a href="https://attending.co.il/product/203006/">
+                <a href="/product">
                   בחירת הזמנה
                 </a>
               </div>
@@ -272,7 +274,7 @@ const ProductCategory = () => {
                   height={470}
                   width="100%"
                 />
-                <a href="https://attending.co.il/product/03020/">בחירת הזמנה</a>
+                <a href="/product">בחירת הזמנה</a>
               </div>
             </li>
             <li className="video-item product type-product post-2791 status-publish instock product_cat-bar-mitzvah product_cat-digital-invitation virtual sold-individually taxable purchasable product-type-simple">
@@ -284,7 +286,7 @@ const ProductCategory = () => {
                   height={470}
                   width="100%"
                 />
-                <a href="https://attending.co.il/product/03018/">בחירת הזמנה</a>
+                <a href="/product">בחירת הזמנה</a>
               </div>
             </li>
             <li className="video-item product type-product post-3943 status-publish instock product_cat-bar-mitzvah product_cat-digital-invitation product_cat-drawing virtual sold-individually taxable purchasable product-type-simple">
@@ -312,7 +314,7 @@ const ProductCategory = () => {
                   height={470}
                   width="100%"
                 />
-                <a href="https://attending.co.il/product/10003/">בחירת הזמנה</a>
+                <a href="/product">בחירת הזמנה</a>
               </div>
             </li>
             <li className="image-item product type-product post-3459 status-publish last instock product_cat-bar-mitzvah product_cat-digital-invitation has-post-thumbnail virtual sold-individually taxable purchasable product-type-simple">
@@ -321,7 +323,7 @@ const ProductCategory = () => {
                   className="product-image"
                   src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2022/08/203020-683x1024.jpg"
                 />
-                <a href="https://attending.co.il/product/203020/">
+                <a href="/product">
                   בחירת הזמנה
                 </a>
               </div>
@@ -332,7 +334,7 @@ const ProductCategory = () => {
                   className="product-image"
                   src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2022/05/03011-683x1024.jpg"
                 />
-                <a href="https://attending.co.il/product/203011/">
+                <a href="/product">
                   בחירת הזמנה
                 </a>
               </div>
@@ -346,7 +348,7 @@ const ProductCategory = () => {
                   height={470}
                   width="100%"
                 />
-                <a href="https://attending.co.il/product/03005/">בחירת הזמנה</a>
+                <a href="/product">בחירת הזמנה</a>
               </div>
             </li>
             <li className="image-item product type-product post-2625 status-publish instock product_cat-bar-mitzvah product_cat-digital-invitation has-post-thumbnail virtual sold-individually taxable purchasable product-type-simple">
@@ -355,7 +357,7 @@ const ProductCategory = () => {
                   className="product-image"
                   src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2022/06/203013-683x1024.jpg"
                 />
-                <a href="https://attending.co.il/product/203013/">
+                <a href="/product">
                   בחירת הזמנה
                 </a>
               </div>
@@ -366,7 +368,7 @@ const ProductCategory = () => {
                   className="product-image"
                   src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2022/06/203014-683x1024.jpg"
                 />
-                <a href="https://attending.co.il/product/203014/">
+                <a href="/product">
                   בחירת הזמנה
                 </a>
               </div>
@@ -380,7 +382,7 @@ const ProductCategory = () => {
                   height={470}
                   width="100%"
                 />
-                <a href="https://attending.co.il/product/03013/">בחירת הזמנה</a>
+                <a href="/product">בחירת הזמנה</a>
               </div>
             </li>
             <li className="video-item product type-product post-2462 status-publish first instock product_cat-bar-mitzvah product_cat-digital-invitation virtual taxable purchasable product-type-simple">
@@ -392,7 +394,7 @@ const ProductCategory = () => {
                   height={470}
                   width="100%"
                 />
-                <a href="https://attending.co.il/product/03010/">בחירת הזמנה</a>
+                <a href="/product">בחירת הזמנה</a>
               </div>
             </li>
             <li className="video-item product type-product post-4979 status-publish instock product_cat-bar-mitzvah product_cat-digital-invitation virtual sold-individually taxable purchasable product-type-simple">
@@ -404,7 +406,7 @@ const ProductCategory = () => {
                   height={470}
                   width="100%"
                 />
-                <a href="https://attending.co.il/product/03021/">בחירת הזמנה</a>
+                <a href="/product">בחירת הזמנה</a>
               </div>
             </li>
             <li className="image-item product type-product post-4083 status-publish instock product_cat-bar-mitzvah product_cat-digital-invitation has-post-thumbnail virtual sold-individually taxable purchasable product-type-simple">
@@ -413,7 +415,7 @@ const ProductCategory = () => {
                   className="product-image"
                   src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2022/10/203003-683x1024.jpg"
                 />
-                <a href="https://attending.co.il/product/203003/">
+                <a href="/product">
                   בחירת הזמנה
                 </a>
               </div>
@@ -424,7 +426,7 @@ const ProductCategory = () => {
                   className="product-image"
                   src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2022/10/203004-1-683x1024.jpg"
                 />
-                <a href="https://attending.co.il/product/203004/">
+                <a href="/product">
                   בחירת הזמנה
                 </a>
               </div>
@@ -435,7 +437,7 @@ const ProductCategory = () => {
                   className="product-image"
                   src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2023/01/203021-683x1024.jpg"
                 />
-                <a href="https://attending.co.il/product/203021/">
+                <a href="/product">
                   בחירת הזמנה
                 </a>
               </div>
@@ -462,7 +464,7 @@ const ProductCategory = () => {
                   className="product-image"
                   src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2022/10/210003-683x1024.jpg"
                 />
-                <a href="https://attending.co.il/product/210003/">
+                <a href="/product">
                   בחירת הזמנה
                 </a>
               </div>
@@ -476,7 +478,7 @@ const ProductCategory = () => {
                   height={470}
                   width="100%"
                 />
-                <a href="https://attending.co.il/product/03014/">בחירת הזמנה</a>
+                <a href="/product">בחירת הזמנה</a>
               </div>
             </li>
             <li className="image-item product type-product post-2504 status-publish instock product_cat-bar-mitzvah product_cat-digital-invitation has-post-thumbnail virtual sold-individually taxable purchasable product-type-simple">
@@ -485,7 +487,7 @@ const ProductCategory = () => {
                   className="product-image"
                   src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2022/05/03012-683x1024.jpg"
                 />
-                <a href="https://attending.co.il/product/203012/">
+                <a href="/product">
                   בחירת הזמנה
                 </a>
               </div>
@@ -499,7 +501,7 @@ const ProductCategory = () => {
                   height={470}
                   width="100%"
                 />
-                <a href="https://attending.co.il/product/03011/">בחירת הזמנה</a>
+                <a href="/product">בחירת הזמנה</a>
               </div>
             </li>
             <li className="image-item product type-product post-2463 status-publish last instock product_cat-bar-mitzvah product_cat-digital-invitation has-post-thumbnail virtual taxable purchasable product-type-simple">
@@ -508,7 +510,7 @@ const ProductCategory = () => {
                   className="product-image"
                   src="https://d3r3au5ai04saj.cloudfront.net/wp-content/uploads/2022/05/PSD-1280-1920-683x1024.jpg"
                 />
-                <a href="https://attending.co.il/product/203010/">
+                <a href="/product">
                   בחירת הזמנה
                 </a>
               </div>
